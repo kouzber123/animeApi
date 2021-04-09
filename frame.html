@@ -9,7 +9,10 @@
 <body>
     <div class="mainBody">
         <div class="header">
-            <h1>Top Anime List</h1>
+            <div class="switch">
+                <button id="switch-inner" onclick="changeAct()" value="anime"><p id="mORa">to Manga</p></button>  
+            </div>
+            <h1  id="title">Top Anime List</h1>
             <button onclick="prePage()">Previous page</button>
             <button onclick="changePage()">Next page   </button>
             <div id="anime"></div>
