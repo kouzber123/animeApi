@@ -33,7 +33,8 @@ let category = "anime"
         document.getElementById("containers").innerHTML=`
         <div class="dataFrames">
                         ${Object(Data).map(function(results){
-                                return `<div class="stuff"><h3>${results.title}</h3>
+                                return `<div class="stuff">                             
+                                <h4>${results.title}</h4>
                                 <img src=${results.image_url} alt="anime image">
                                 <p>${results.synopsis} <strong>Score:</strong> ${results.score}</p> </div>`                                             
                         }).join('')}                       

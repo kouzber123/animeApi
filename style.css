@@ -31,9 +31,11 @@ body{
     padding: 10px ;
     font-style: italic;
 }
-.stuff h3{
+.stuff h4{
     padding:0 10px;
+    margin-bottom: 5%;
     text-align: center;
+    font-size: 14px;   
 }
 .stuff img{
     margin-left: 12%;
@@ -41,6 +43,7 @@ body{
     width:  70%;
     height: 50%;
     object-fit: cover;
+    
 }
 .selects{
     max-width: 90%;
